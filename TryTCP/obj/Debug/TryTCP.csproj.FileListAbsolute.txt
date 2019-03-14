@@ -1,0 +1,7 @@
+C:\Users\tutur\source\repos\TryTCP\TryTCP\obj\Debug\TryTCP.csprojAssemblyReference.cache
+C:\Users\tutur\source\repos\TryTCP\TryTCP\obj\Debug\TryTCP.csproj.CoreCompileInputs.cache
+C:\Users\tutur\source\repos\TryTCP\TryTCP\bin\Debug\TryTCP.exe.config
+C:\Users\tutur\source\repos\TryTCP\TryTCP\bin\Debug\TryTCP.exe
+C:\Users\tutur\source\repos\TryTCP\TryTCP\bin\Debug\TryTCP.pdb
+C:\Users\tutur\source\repos\TryTCP\TryTCP\obj\Debug\TryTCP.exe
+C:\Users\tutur\source\repos\TryTCP\TryTCP\obj\Debug\TryTCP.pdb
