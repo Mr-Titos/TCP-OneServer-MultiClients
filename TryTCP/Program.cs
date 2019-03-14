@@ -6,8 +6,6 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace TryTCP
-{
     namespace Client
     {
         class Program
@@ -18,9 +16,9 @@ namespace TryTCP
 
             static void Main(string[] args)
             {
-                Console.WriteLine("Adresse IP : ");
+                Console.Write("IP Adress : ");
                 String SERVER_IP = Console.ReadLine();
-                Console.WriteLine("Port : ");
+                Console.Write("Port : ");
                 int port = Convert.ToInt32(Console.ReadLine());
 
                 Thread Listen;
@@ -34,7 +32,7 @@ namespace TryTCP
 
                 while (true)
                 {
-                    Console.Write("Quoi envoyer ?  -- ");
+                    Console.Write("Send What ?  -- ");
                     string textToSend = Console.ReadLine();
 
                     byte[] bytesToSend = Encoding.ASCII.GetBytes(textToSend);
@@ -60,11 +58,11 @@ namespace TryTCP
 
                     String messageReceived = Encoding.UTF8.GetString(msg);
                     if (messageReceived.Length > 0)
-                        Console.WriteLine("Recu : " + messageReceived );
+                        Console.WriteLine("Receive : " + messageReceived );
                 }
             }
 
         }
     }
 
-}
+

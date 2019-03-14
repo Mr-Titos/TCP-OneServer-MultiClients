@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryTCP", "TryTCP\TryTCP.csproj", "{100FE024-A3E3-49BB-BAD4-2CDE40772EA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "TryTCP\Client.csproj", "{100FE024-A3E3-49BB-BAD4-2CDE40772EA7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTcp", "ServerTcp\ServerTcp.csproj", "{BB870B91-CC0D-4A55-A41B-AAE5B1B8E66B}"
 EndProject

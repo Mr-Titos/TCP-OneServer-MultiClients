@@ -14,7 +14,6 @@ namespace ServerTcp
     {
         const string SERVER_IP = "127.0.0.1";
         byte[] bytes = new byte[1024];
-        //ArrayList readListe = new ArrayList();
         static List<Socket> readList = new List<Socket>();
         static Socket ServerSocket = new Socket(AddressFamily.InterNetwork,
                       SocketType.Stream,
@@ -84,7 +83,7 @@ namespace ServerTcp
         {
             IPHostEntry ipHostEntry = Dns.Resolve(Dns.GetHostName());
             IPAddress ipAddress = ipHostEntry.AddressList[0];
-            Console.WriteLine("IP=" + ipAddress.ToString());
+            Console.WriteLine("Server IP = " + ipAddress.ToString());
             Socket CurrentClient = null;
             
             try
@@ -96,7 +95,7 @@ namespace ServerTcp
                 while (true)
                 {
                     CurrentClient = ServerSocket.Accept();
-                    Console.WriteLine("Nouveau client:" + CurrentClient.RemoteEndPoint);
+                    Console.WriteLine("New client:" + CurrentClient.RemoteEndPoint);
                     readList.Add(CurrentClient);
                 }
             }
