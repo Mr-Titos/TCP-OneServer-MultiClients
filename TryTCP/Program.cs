@@ -16,8 +16,8 @@ using System.Threading;
 
             static void Main(string[] args)
             {
-                Console.Write("IP Adress : ");
-                String SERVER_IP = Console.ReadLine();
+                Console.WriteLine("Veiller a ce que le serveur soit allumé avant d'entrer le port");
+                String SERVER_IP = "127.0.0.1";
                 Console.Write("Port : ");
                 int port = Convert.ToInt32(Console.ReadLine());
 
